@@ -8,5 +8,5 @@ import (
 func ExampleDouble(){
 	fmt.Println(example.Double(2))
 	// Output:
-	// 2
+	// 4
 }
