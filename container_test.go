@@ -9,10 +9,9 @@ func Example(){
 	chris:=example.User{
 		Name:"Chris",
 	}
-	fmt.Println(chris)
-	fmt.Println(chris.Name)
+	fmt.Println(chris.NameString())
+	
 	// Output:
-	//{Chris}
 	// Chris
 	
 
