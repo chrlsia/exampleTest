@@ -6,11 +6,15 @@ import (
 )
 
 func Example(){
-	fmt.Println(example.Double(3))
-	fmt.Println(example.Triple(3))
+	chris:=example.User{
+		Name:"Chris",
+	}
+	fmt.Println(chris)
+	fmt.Println(chris.Name)
 	// Output:
-	// 6
-	// 9
+	//{Chris}
+	// Chris
+	
 
 	
 	
