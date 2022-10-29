@@ -4,9 +4,10 @@ import (
 	"example"
 )
 
-func ExamplePrintHello(){
-	example.PrintHello()
-	// Output:
-	// Hello
-	// Hello
+func ExamplePrintMap(){
+	example.PrintMap()
+	// Unordered output:
+	// 1 true
+	// 2 false
+	// 3 true
 }
