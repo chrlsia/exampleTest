@@ -5,8 +5,18 @@ import (
 	"fmt"
 )
 
-func ExampleDouble_with3(){
+func Example(){
 	fmt.Println(example.Double(3))
-	// output:
+	fmt.Println(example.Triple(3))
+	// Output:
 	// 6
+	// 9
+
+	
+	
+
 }
+
+
+
+
