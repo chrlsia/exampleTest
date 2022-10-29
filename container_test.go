@@ -2,12 +2,11 @@ package example_test
 
 import (
 	"example"
+	"fmt"
 )
 
-func ExamplePrintMap(){
-	example.PrintMap()
-	// Unordered output:
-	// 1 true
-	// 2 false
-	// 3 true
+func ExampleDouble_with2(){
+	fmt.Println(example.Double(2))
+	// output:
+	// 4
 }
