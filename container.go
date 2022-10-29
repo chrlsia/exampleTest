@@ -1,5 +1,9 @@
 package example
 
-func Double(n int)int{
-	return n*2 
+import "fmt"
+
+func PrintHello(){
+	fmt.Println("Hello")
+	fmt.Println("Hello")
+
 }
