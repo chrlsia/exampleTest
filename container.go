@@ -1,9 +1,5 @@
 package example
 
-type User struct{
-	Name string
-}
-
-func (u User) NameString() string{
-	return u.Name
+func AddSubtract2Numbers(n1,n2 int) (int,int){
+	return n1+n2,n1-n2
 }

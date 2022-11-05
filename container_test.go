@@ -5,14 +5,13 @@ import (
 	"fmt"
 )
 
-func Example(){
-	chris:=example.User{
-		Name:"Chris",
-	}
-	fmt.Println(chris.NameString())
-	
+func ExampleAddSubtract2Numbers(){
+	res1,res2:=example.AddSubtract2Numbers(3,2)
+	fmt.Println(res1)
+	fmt.Println(res2)
 	// Output:
-	// Chris
+	// 5
+	// 1
 	
 
 	
