@@ -7,11 +7,11 @@ import (
 
 func ExampleAddSubtract2Numbers(){
 	res1,res2:=example.AddSubtract2Numbers(3,2)
-	fmt.Println(res1)
-	fmt.Println(res2)
+	fmt.Println(res1,res2)
 	// Output:
-	// 5
+	// 5 
 	// 1
+
 	
 
 	
